@@ -123,7 +123,7 @@ class XML2Array {
 require_once('.config.inc.php');
 require_once('../../../../includes.php');
 
-//AWSAccessKeyId=AKIAJXZHJ4W775V6BPLQ&Action=GetReport&Merchant=A196A8GC0YNHR&ReportId=21230500643&SignatureMethod=HmacSHA256&SignatureVersion=2&Timestamp=2014-11-18T10%3A02%3A16Z&Version=2009-01-01
+//AWSAccessKeyId=AKIAJXZHJ4-----------------&Action=GetReport&Merchant=A196A000----&ReportId=21230500643&SignatureMethod=HmacSHA256&SignatureVersion=2&Timestamp=2014-11-18T10%3A02%3A16Z&Version=2009-01-01
 
 
 

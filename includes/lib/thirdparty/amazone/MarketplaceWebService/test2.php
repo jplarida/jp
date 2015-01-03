@@ -1,5 +1,5 @@
 <?php
-$AWSAccessKeyId = "AKIAJXZHJ4W775V6BPLQ";
+$AWSAccessKeyId = "AKIAJXZHJ4-----------------";
 $SecretAccessKey = "y+23fIarxTEzt7MCpHhebL1Uw3Ig3MgMFW/Bj5+e";
  
 $ItemId = "B00G8S4LXK"; // ASIN
@@ -11,7 +11,7 @@ $ResponseGroup = str_replace(",", "%2C", $ResponseGroup);
 $String = "AWSAccessKeyId=$AWSAccessKeyId&
 
 Action=GetMyPriceForASINp&
-SellerId=A196A8GC0YNHR&
+SellerId=A196A000----&
 SignatureVersion=2&
 
 Timestamp=$Timestamp&
@@ -29,7 +29,7 @@ $Signature = str_replace("+", "%2B", $Signature);
 $Signature = str_replace("=", "%3D", $Signature);
  
 $BaseUrl = "http://mws.amazonservices.com/Products/2011-10-01?";
-$SignedRequest = $BaseUrl . $String . "&Signature=" . $Signature."&SignatureMethod=HmacSHA256&MarketplaceId=ATVPDKIKX0DER
+$SignedRequest = $BaseUrl . $String . "&Signature=" . $Signature."&SignatureMethod=HmacSHA256&MarketplaceId=ATVPDKIK-------
   &ASINList.ASIN.1=B00G8S4LXK HTTP/1.1";
  echo $SignedRequest;
 $XML = simplexml_load_file($SignedRequest);

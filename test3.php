@@ -42,10 +42,10 @@ function aws_signed_request($region, $public_key, $private_key, $version='2011-0
     // additional parameters
     $params['AWSAccessKeyId'] 				= $public_key;
 	$params['Action'] 						= "GetMyPriceForASIN";
-	$params['SellerId'] 					= "A196A8GC0YNHR";
+	$params['SellerId'] 					= "A196A000----";
 	$params['SignatureVersion'] 			= "2";
 	$params['SignatureMethod'] 				= "HmacSHA256";
-	$params['MarketplaceId'] 				= "ATVPDKIKX0DER";
+	$params['MarketplaceId'] 				= "ATVPDKIK-------";
 	$params['ASINList.ASIN.1'] 				= "B00G8S4LXK";
     // GMT timestamp
     $params['Timestamp'] = gmdate('Y-m-d\TH:i:s\Z');
@@ -79,5 +79,5 @@ function aws_signed_request($region, $public_key, $private_key, $version='2011-0
     
     return $request;
 }
-echo aws_signed_request("com","AKIAJXZHJ4W775V6BPLQ",'y+23fIarxTEzt7MCpHhebL1Uw3Ig3MgMFW/Bj5+e');
+echo aws_signed_request("com","AKIAJXZHJ4-----------------",'y+23fIarxTEzt7MCpHhebL1Uw3Ig3MgMFW/Bj5+e');
 ?>
