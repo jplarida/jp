@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.zclip.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+    $('a#copy-dynamic').zclip({
+		path:'js/ZeroClipboard.swf',
+		copy:function(){return $('input#dynamic').val();}
+	});
+
+});
+</script>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+
+<body>
+<a href="#" id="copy-dynamic" class="">Click here to copy the zClip description paragraph</a>
+
+<input type="text" id="dynamic" value="Insert any text here." >
+</body>
+</html>

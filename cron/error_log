@@ -1,0 +1,11 @@
+[09-Dec-2014 15:23:52 Europe/London] PHP Fatal error:  Call to a member function children() on a non-object in /home/dixeam/public_html/amazone/cron/amazone-graber.php on line 44
+[09-Dec-2014 15:23:58 Europe/London] PHP Fatal error:  Call to a member function children() on a non-object in /home/dixeam/public_html/amazone/cron/amazone-graber.php on line 44
+[09-Dec-2014 15:24:28 Europe/London] PHP Fatal error:  Call to a member function children() on a non-object in /home/dixeam/public_html/amazone/cron/amazone-graber.php on line 44
+[09-Dec-2014 15:25:19 Europe/London] PHP Fatal error:  Call to a member function children() on a non-object in /home/dixeam/public_html/amazone/cron/amazone-graber.php on line 43
+[09-Dec-2014 15:25:50 Europe/London] PHP Fatal error:  Call to a member function children() on a non-object in /home/dixeam/public_html/amazone/cron/amazone-graber.php on line 43
+[09-Dec-2014 15:26:05 Europe/London] PHP Fatal error:  Call to a member function children() on a non-object in /home/dixeam/public_html/amazone/cron/amazone-graber.php on line 43
+[11-Dec-2014 13:45:19 Europe/London] PHP Fatal error:  Call to a member function children() on a non-object in /home/dixeam/public_html/amazone/cron/amazone-graber.php on line 43
+[12-Dec-2014 10:02:35 Europe/London] PHP Fatal error:  Call to a member function children() on a non-object in /home/dixeam/public_html/amazone/cron/amazone-graber.php on line 52
+[12-Dec-2014 10:03:21 Europe/London] PHP Fatal error:  Call to a member function children() on a non-object in /home/dixeam/public_html/amazone/cron/amazone-graber.php on line 52
+[12-Dec-2014 10:04:43 Europe/London] PHP Fatal error:  Call to a member function children() on a non-object in /home/dixeam/public_html/amazone/cron/amazone-graber.php on line 52
+[12-Dec-2014 10:05:38 Europe/London] PHP Fatal error:  Call to a member function children() on a non-object in /home/dixeam/public_html/amazone/cron/amazone-graber.php on line 52

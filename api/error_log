@@ -1,0 +1,21 @@
+[03-Dec-2014 10:31:36 Europe/London] PHP Notice:  Undefined variable: sql_obj in /home/dixeam/public_html/amazone/api/show-orders.php on line 17
+[03-Dec-2014 10:31:36 Europe/London] PHP Fatal error:  Call to a member function QFetchRowArray() on a non-object in /home/dixeam/public_html/amazone/api/show-orders.php on line 17
+[03-Dec-2014 14:05:17 Europe/London] PHP Notice:  Undefined index: order_id in /home/dixeam/public_html/amazone/api/show-orders.php on line 16
+[03-Dec-2014 14:05:23 Europe/London] PHP Notice:  Undefined index: order_id in /home/dixeam/public_html/amazone/api/show-orders.php on line 16
+[03-Dec-2014 14:05:35 Europe/London] PHP Notice:  Undefined index: order_id in /home/dixeam/public_html/amazone/api/show-orders.php on line 16
+[03-Dec-2014 14:05:38 Europe/London] PHP Notice:  Undefined index: order_id in /home/dixeam/public_html/amazone/api/show-orders.php on line 16
+[03-Dec-2014 14:14:17 Europe/London] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/dixeam/public_html/amazone/api/show-orders.php on line 16
+[03-Dec-2014 14:14:55 Europe/London] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/dixeam/public_html/amazone/api/show-orders.php on line 16
+[15-Dec-2014 12:42:49 Europe/London] PHP Notice:  Undefined variable: sql_obj in /home/dixeam/public_html/amazone/api/sale-dashbord.php on line 31
+[15-Dec-2014 12:42:49 Europe/London] PHP Fatal error:  Call to a member function QFetchRowArray() on a non-object in /home/dixeam/public_html/amazone/api/sale-dashbord.php on line 31
+[15-Dec-2014 12:45:26 Europe/London] PHP Fatal error:  Call to a member function QFetchRowArray() on a non-object in /home/dixeam/public_html/amazone/api/sale-dashbord.php on line 33
+[15-Dec-2014 12:47:37 Europe/London] PHP Warning:  require_once(includes/lib/includes.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/dixeam/public_html/amazone/api/sale-dashbord.php on line 1
+[15-Dec-2014 12:47:37 Europe/London] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'includes/lib/includes.php' (include_path='.:/opt/alt/php53/usr/share/pear:/opt/alt/php53/usr/share/php') in /home/dixeam/public_html/amazone/api/sale-dashbord.php on line 1
+[15-Dec-2014 12:49:31 Europe/London] PHP Fatal error:  Call to a member function showPaging() on a non-object in /home/dixeam/public_html/amazone/api/sale-dashbord.php on line 88
+[15-Dec-2014 13:23:05 Europe/London] PHP Fatal error:  Call to a member function showPaging() on a non-object in /home/dixeam/public_html/amazone/api/sale-dashbord.php on line 98
+[15-Dec-2014 13:40:41 Europe/London] PHP Fatal error:  Call to a member function showPaging() on a non-object in /home/dixeam/public_html/amazone/api/sale-dashbord.php on line 98
+[15-Dec-2014 14:15:52 Europe/London] PHP Fatal error:  Call to a member function showPaging() on a non-object in /home/dixeam/public_html/amazone/api/sale-dashbord.php on line 102
+[23-Dec-2014 11:32:29 Europe/London] PHP Notice:  Undefined index: FBAPerOrderFulfillmentFee	 in /home/dixeam/public_html/amazone/api/show-orders.php on line 139
+[25-Dec-2014 20:19:15 Europe/London] PHP Notice:  Undefined index: FBAPerOrderFulfillmentFee	 in /home/dixeam/public_html/amazone/api/show-orders.php on line 139
+[29-Dec-2014 03:20:15 Europe/London] PHP Notice:  Undefined index: FBAPerOrderFulfillmentFee	 in /home/dixeam/public_html/amazone/api/show-orders.php on line 139
+[29-Dec-2014 03:20:15 Europe/London] PHP Notice:  Undefined index: FBAPerOrderFulfillmentFee	 in /home/dixeam/public_html/amazone/api/show-orders.php on line 139

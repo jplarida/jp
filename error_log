@@ -1,0 +1,107 @@
+[17-Nov-2014 14:46:51 Europe/London] PHP Parse error:  syntax error, unexpected $end in /home/dixeam/public_html/amazone/Inventory_health.php on line 209
+[19-Nov-2014 14:07:29 Europe/London] PHP Parse error:  syntax error, unexpected $end, expecting ')' in /home/dixeam/public_html/amazone/products.php on line 161
+[20-Nov-2014 10:34:38 Europe/London] PHP Fatal error:  Class 'Paging' not found in /home/dixeam/public_html/amazone/sales-dashboard.php on line 145
+[20-Nov-2014 10:39:28 Europe/London] PHP Fatal error:  Call to a member function RowCount() on a non-object in /home/dixeam/public_html/amazone/includes/lib/classes/paging.php on line 18
+[20-Nov-2014 10:59:03 Europe/London] PHP Fatal error:  Call to a member function RowCount() on a non-object in /home/dixeam/public_html/amazone/includes/lib/classes/paging.php on line 18
+[20-Nov-2014 10:59:42 Europe/London] PHP Fatal error:  Call to a member function RowCount() on a non-object in /home/dixeam/public_html/amazone/includes/lib/classes/paging.php on line 18
+[27-Nov-2014 09:58:08 Europe/London] PHP Fatal error:  Class 'MarketplaceWebService_Client' not found in /home/dixeam/public_html/amazone/includes/lib/thirdparty/amazone/MarketplaceWebService/Samples/.config.inc.php on line 80
+[27-Nov-2014 12:36:06 Europe/London] PHP Fatal error:  Call to a member function QFetchArray() on a non-object in /home/dixeam/public_html/amazone/includes/lib/thirdparty/thirdparty.config.inc.php on line 18
+[30-Nov-2014 13:08:36 Europe/London] PHP Parse error:  syntax error, unexpected $end in /home/dixeam/public_html/amazone/sales-dashboard.php on line 134
+[02-Dec-2014 13:33:32 Europe/London] CSRF state token does not match one provided.
+[11-Dec-2014 12:27:49 Europe/London] PHP Parse error:  syntax error, unexpected $end in /home/dixeam/public_html/amazone/products.php on line 422
+[23-Dec-2014 10:42:49 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[23-Dec-2014 11:02:08 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[23-Dec-2014 11:03:43 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[23-Dec-2014 11:03:56 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[23-Dec-2014 11:04:07 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[23-Dec-2014 11:04:11 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[23-Dec-2014 11:04:32 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[23-Dec-2014 11:04:38 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[23-Dec-2014 11:05:24 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[23-Dec-2014 11:05:39 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[23-Dec-2014 11:05:46 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[23-Dec-2014 11:05:49 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[23-Dec-2014 11:05:52 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[23-Dec-2014 11:05:54 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[23-Dec-2014 11:12:12 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[23-Dec-2014 11:19:22 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[23-Dec-2014 11:24:18 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[23-Dec-2014 11:24:24 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[23-Dec-2014 11:29:06 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[23-Dec-2014 11:29:09 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[23-Dec-2014 11:29:10 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[23-Dec-2014 11:30:50 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[23-Dec-2014 11:31:01 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[23-Dec-2014 11:31:02 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[23-Dec-2014 11:31:21 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[23-Dec-2014 11:31:22 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[23-Dec-2014 11:32:07 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[23-Dec-2014 12:43:03 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[24-Dec-2014 11:06:16 Europe/London] PHP Notice:  Undefined index: user_id in /home/dixeam/public_html/amazone/includes/subpages/top-bar.php on line 297
+[24-Dec-2014 11:06:16 Europe/London] PHP Notice:  Undefined index: user_id in /home/dixeam/public_html/amazone/includes/subpages/sidebar.php on line 21
+[24-Dec-2014 11:06:16 Europe/London] PHP Notice:  Undefined index: user_id in /home/dixeam/public_html/amazone/Inventory_health.php on line 49
+[24-Dec-2014 11:06:16 Europe/London] PHP Notice:  Undefined index: user_id in /home/dixeam/public_html/amazone/includes/lib/app/metronic.php on line 58
+[24-Dec-2014 11:06:23 Europe/London] PHP Notice:  Undefined index: user_id in /home/dixeam/public_html/amazone/includes/subpages/top-bar.php on line 297
+[24-Dec-2014 11:06:23 Europe/London] PHP Notice:  Undefined index: user_id in /home/dixeam/public_html/amazone/includes/subpages/sidebar.php on line 21
+[24-Dec-2014 11:06:23 Europe/London] PHP Notice:  Undefined index: user_id in /home/dixeam/public_html/amazone/Inventory_health.php on line 49
+[24-Dec-2014 11:06:23 Europe/London] PHP Notice:  Undefined index: user_id in /home/dixeam/public_html/amazone/includes/lib/app/metronic.php on line 58
+[24-Dec-2014 11:06:23 Europe/London] PHP Notice:  Undefined index: user_id in /home/dixeam/public_html/amazone/includes/subpages/top-bar.php on line 297
+[24-Dec-2014 11:06:23 Europe/London] PHP Notice:  Undefined index: user_id in /home/dixeam/public_html/amazone/includes/subpages/sidebar.php on line 21
+[24-Dec-2014 11:06:23 Europe/London] PHP Notice:  Undefined index: user_id in /home/dixeam/public_html/amazone/Inventory_health.php on line 49
+[24-Dec-2014 11:06:23 Europe/London] PHP Notice:  Undefined index: user_id in /home/dixeam/public_html/amazone/includes/lib/app/metronic.php on line 58
+[24-Dec-2014 11:06:39 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[24-Dec-2014 11:08:19 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[24-Dec-2014 11:17:39 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[24-Dec-2014 11:25:28 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[24-Dec-2014 11:25:32 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[24-Dec-2014 11:25:51 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[24-Dec-2014 11:26:13 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[24-Dec-2014 11:29:40 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[24-Dec-2014 11:37:30 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[24-Dec-2014 11:44:58 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[24-Dec-2014 11:45:10 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[24-Dec-2014 11:48:20 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 354
+[24-Dec-2014 11:49:14 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 356
+[24-Dec-2014 11:49:35 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 356
+[25-Dec-2014 08:10:30 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 356
+[25-Dec-2014 09:15:47 Europe/London] PHP Notice:  Undefined index: user_id in /home/dixeam/public_html/amazone/includes/subpages/top-bar.php on line 297
+[25-Dec-2014 09:15:47 Europe/London] PHP Notice:  Undefined index: user_id in /home/dixeam/public_html/amazone/includes/subpages/sidebar.php on line 21
+[25-Dec-2014 09:17:26 Europe/London] PHP Notice:  Undefined index: user_id in /home/dixeam/public_html/amazone/includes/subpages/top-bar.php on line 297
+[25-Dec-2014 09:17:26 Europe/London] PHP Notice:  Undefined index: user_id in /home/dixeam/public_html/amazone/includes/subpages/sidebar.php on line 21
+[25-Dec-2014 20:17:35 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 356
+[25-Dec-2014 20:18:14 Europe/London] PHP Notice:  Undefined index: id in /home/dixeam/public_html/amazone/includes/subpages/plugins/highchart/super-url-chart.php on line 2
+[25-Dec-2014 20:18:40 Europe/London] PHP Notice:  Undefined variable: products in /home/dixeam/public_html/amazone/user-rating.php on line 140
+[25-Dec-2014 20:18:40 Europe/London] PHP Notice:  Undefined variable: star5 in /home/dixeam/public_html/amazone/user-rating.php on line 142
+[25-Dec-2014 20:18:40 Europe/London] PHP Notice:  Undefined variable: star4 in /home/dixeam/public_html/amazone/user-rating.php on line 144
+[25-Dec-2014 20:18:40 Europe/London] PHP Notice:  Undefined variable: star3 in /home/dixeam/public_html/amazone/user-rating.php on line 146
+[25-Dec-2014 20:18:40 Europe/London] PHP Notice:  Undefined index: cost_per_unit in /home/dixeam/public_html/amazone/user-rating.php on line 289
+[26-Dec-2014 10:11:10 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 356
+[26-Dec-2014 10:16:01 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 356
+[28-Dec-2014 06:03:30 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 356
+[28-Dec-2014 06:24:59 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 356
+[28-Dec-2014 06:25:03 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 356
+[28-Dec-2014 06:29:25 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 356
+[28-Dec-2014 06:29:55 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 356
+[28-Dec-2014 18:35:49 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 356
+[28-Dec-2014 18:56:36 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 356
+[29-Dec-2014 03:02:44 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 356
+[29-Dec-2014 03:20:08 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 356
+[29-Dec-2014 03:20:21 Europe/London] PHP Notice:  Undefined index: id in /home/dixeam/public_html/amazone/includes/subpages/plugins/highchart/super-url-chart.php on line 2
+[29-Dec-2014 07:05:46 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 356
+[29-Dec-2014 07:06:28 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 356
+[29-Dec-2014 17:19:50 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 356
+[29-Dec-2014 17:20:41 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 356
+[29-Dec-2014 17:29:40 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 356
+[29-Dec-2014 17:29:46 Europe/London] PHP Notice:  Undefined variable: pro_row in /home/dixeam/public_html/amazone/products.php on line 356
+[29-Dec-2014 17:30:23 Europe/London] PHP Notice:  Undefined index: id in /home/dixeam/public_html/amazone/includes/subpages/plugins/highchart/super-url-chart.php on line 2
+[29-Dec-2014 17:30:32 Europe/London] PHP Notice:  Undefined index: id in /home/dixeam/public_html/amazone/includes/subpages/plugins/highchart/super-url-chart.php on line 2
+[29-Dec-2014 17:30:41 Europe/London] PHP Notice:  Undefined index: keyword in /home/dixeam/public_html/amazone/includes/subpages/seller-rank-chart.php on line 62
+[29-Dec-2014 17:30:41 Europe/London] PHP Notice:  Undefined index: keyword in /home/dixeam/public_html/amazone/includes/subpages/seller-rank-chart.php on line 62
+[29-Dec-2014 17:30:41 Europe/London] PHP Notice:  Undefined index: keyword in /home/dixeam/public_html/amazone/includes/subpages/seller-rank-chart.php on line 62
+[29-Dec-2014 17:30:41 Europe/London] PHP Notice:  Undefined index: keyword in /home/dixeam/public_html/amazone/includes/subpages/seller-rank-chart.php on line 62
+[29-Dec-2014 17:30:41 Europe/London] PHP Notice:  Undefined index: keyword in /home/dixeam/public_html/amazone/includes/subpages/seller-rank-chart.php on line 62
+[29-Dec-2014 17:30:41 Europe/London] PHP Notice:  Undefined index: keyword in /home/dixeam/public_html/amazone/includes/subpages/seller-rank-chart.php on line 62
+[29-Dec-2014 17:30:41 Europe/London] PHP Notice:  Undefined index: keyword in /home/dixeam/public_html/amazone/includes/subpages/seller-rank-chart.php on line 62
+[29-Dec-2014 17:30:41 Europe/London] PHP Notice:  Undefined index: keyword in /home/dixeam/public_html/amazone/includes/subpages/seller-rank-chart.php on line 62
+[29-Dec-2014 17:30:41 Europe/London] PHP Notice:  Undefined index: keyword in /home/dixeam/public_html/amazone/includes/subpages/seller-rank-chart.php on line 62
+[29-Dec-2014 17:30:41 Europe/London] PHP Notice:  Undefined index: keyword in /home/dixeam/public_html/amazone/includes/subpages/seller-rank-chart.php on line 62
