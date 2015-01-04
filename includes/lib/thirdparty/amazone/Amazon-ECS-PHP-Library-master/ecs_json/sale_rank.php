@@ -2,8 +2,8 @@
 <?php
 
 
-define('AWS_API_KEY', 'AKIAJMFFUE3L7S5QII7Q');
-define('AWS_API_SECRET_KEY', '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');
+define('AWS_API_KEY', '34659-JMF808-9905464');
+define('AWS_API_SECRET_KEY', '3658798-43cJANjgOUTJey567590--P');
 define('AWS_ASSOCIATE_TAG', 'test05-12');
 
 

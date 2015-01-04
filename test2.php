@@ -78,4 +78,4 @@ function aws_signed_request($region, $params, $public_key, $private_key, $associ
     return $request;
 }
 echo aws_signed_request("com",array("Operation"=>"ItemLookup",
-                        "ItemId"=>"B000X9FLKM", "ResponseGroup"=>"Small"),"AKIAJMFFUE3L7S5QII7Q",'UbYYIYl+MZOdHxb43cJANjgOUTJeyurRrbu5tRXP','test05-12');
+                        "ItemId"=>"B000X9FLKM", "ResponseGroup"=>"Small"),"234-MFsdde2535-----",'23490-942l+MZOdHxb43cJANjgOUT------','test05-12');

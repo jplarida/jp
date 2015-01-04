@@ -106,7 +106,7 @@ class bettermws
     $pricing = $bettermws->itemlookup($asin);
 
 */
-$bettermws = new bettermws('A196A000----', 'AKIAJMFFUE3L7S5QII7Q', 'UbYYIYl+MZOdHxb43cJANjgOUTJeyurRrbu5tRXP');
+$bettermws = new bettermws('323678-6A000----', '234-MFsdde2535-----', '23490-942l+MZOdHxb43cJANjgOUT------');
     $pricing = $bettermws->itemlookup("B00OYK3MMA");
 	print_r($pricing);
 ?>

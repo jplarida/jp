@@ -1,6 +1,6 @@
 <?php
-$AWSAccessKeyId = "AKIAICPAI74RPBXQ3ITQ";
-$SecretAccessKey = "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";
+$AWSAccessKeyId = "23240--CPAI74RPBXQ3ITQ";
+$SecretAccessKey = "+YT9iFwK339TWHssssssssssss333333a";
  
 $ItemId = "B00JUEVZI8"; // ASIN
 $Timestamp = gmdate("Y-m-d\TH:i:s\Z");

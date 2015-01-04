@@ -7,10 +7,10 @@ set_include_path('/home/dixeam/public_html/amazone/includes/lib/thirdparty/amazo
 require_once('Samples/reporting.php');
 
 
-$amazone_array['AWS_API_KEY']			=	'AKIAJXZHJ4-----------------';
-$amazone_array['AWS_API_SECRET_KEY']	=	'y+23fIarxTEzt7MCpHhebL1Uw3Ig3MgMFW/Bj5+e';
-$amazone_array['MERCHANT_ID']			=	'A196A000----';
-$amazone_array['MAKETPLACE_ID']			=	'ATVPDKIK-------';
+$amazone_array['AWS_API_KEY']			=	'2342JXZHJ4-----------------';
+$amazone_array['AWS_API_SECRET_KEY']	=	'-7867-3fIarxTEzt7MCpH6433333336---------';
+$amazone_array['MERCHANT_ID']			=	'323678-6A000----';
+$amazone_array['MAKETPLACE_ID']			=	'233534e5-VPDKIK-------';
 
 
 $report_obj		=		new Reporting($amazone_array);
