@@ -40,9 +40,16 @@ class Paging	{
 		$next			=	($this->getCurrentPage() >= $this->page_limit || $this->getCurrentPage() == $total_pages) ? NULL:'<a href="'.$current_url.($this->getCurrentPage() + 1).'"><li>Next&nbsp; ></a></li>';
 		
 		$paging			=	'<div id="Paging"><ul class="pagination pagination-centered">'.$pre;
+		
+		//PATCH FOR FILTER
+		//UPDATED BY JBE
+		$filters = '';
+		if($table == 'sale_orders') $filters = '&month='.$_REQUEST['month'].'&year='.$_REQUEST['year'];
+		//END PATCH
+		
 		for($i;$i <= $to; $i++)	{
 			$style		=	($i	==	$this->getCurrentPage())?'class="selected"':NULL;
-			$paging		.=	'<li '.$style.'><a href="'.$current_url.$i.'">'.$i.'</a></li>';
+			$paging		.=	'<li '.$style.'><a href="'.$current_url.$i.$filters.'">'.$i.'</a></li>';
 		}
 		return $paging.$next.'</ul></div>';
 	}

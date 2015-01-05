@@ -79,6 +79,37 @@ $limit     =  $paging_obj->getLimit();
         <div class="tabbable tabbable-custom boxless">
           <div class="col-md-12"> 
             <div class="tab-content">
+            
+              <!-- Filter Enhancement 
+              ADDED BY JBE 1/6/2015
+              https://trello.com/c/ydQaU1fE/2-this-is-your-first-task
+              -->
+              <?php
+              	$filters = array();
+              	$_REQUEST['month'] = (isset($_REQUEST['month'])) ? $_REQUEST['month'] : 0;
+              	$_REQUEST['year'] = (isset($_REQUEST['year'])) ? $_REQUEST['year'] : 0;
+              	if($_REQUEST['month'] > 0 && $_REQUEST['month'] < 13) $filters[] = 'MONTH(transaction_date) = '.$_REQUEST['month'];
+              	if($_REQUEST['year'] > 0) $filters[] = 'YEAR(transaction_date) = '.$_REQUEST['year'];
+              ?>
+              <div style="margin-bottom: 12px;">
+              	<form action="" methon="GET">
+              	  <strong style="margin-right: 6px;">Filter by Transaction Date:</strong>
+	              <?php $months = array('January','February','March','April','May','June','July','August','September','October','November','December');?>
+	              Month: 
+	              <select name="month" style="margin-right: 6px;">
+	              	<option value="0">All</option>
+	              <?php foreach($months as $k => $month):?><option value="<?=($k+1)?>" <?php if($_REQUEST['month'] == ($k+1)):?>selected="selected"<?php endif;?>><?=$month?></option><?php endforeach;?>
+	              </select>
+	              Year: 
+	              <select name="year" style="margin-right: 6px;">
+	              	<option value="0">All</option>
+	              	<?php for($y = date('Y'); $y >= (date('Y')-10); $y--):?><option value="<?=$y?>" <?php if($_REQUEST['year'] == $y):?>selected="selected"<?php endif;?>><?=$y?></option><?php endfor;?>
+	              </select>
+	              <button class="btn btn-primary" id="transDateFilter">GO</button>
+	             </form>
+              </div>
+              <!-- End Enhancement -->
+            
               <div class="tab-pane active" id="tab_1">
                 <div class="portlet box blue">
                   <div class="portlet-title">
@@ -103,9 +134,22 @@ $limit     =  $paging_obj->getLimit();
                       </thead>
                       <tbody>
                         <?php
+                        
+                        /*APPLY FILTER 
+                        UPDATED 1/5/2015
+                        */
+                        
+                        $filters = (!empty($filters)) ? ' WHERE '.join(' AND ', $filters) : '';
+                        
+                        $sql = '
+                        SElECT * 
+                        FROM sale_orders
+                        '.$filters.' 
+                        '.$limit;
 							 
-		$orders 		=	$sql_obj->QFetchRowArray("SELECT * from sale_orders   $limit");
+		 //$orders 		=	$sql_obj->QFetchRowArray("SELECT * from sale_orders $limit");
 		 //$orders 		=	$sql_obj->QFetchRowArray("SELECT * from sale_orders ORDER BY Commission DESC $limit");
+		 $orders 		=	$sql_obj->QFetchRowArray($sql);
 		 if(is_array($orders))	{
 			 foreach($orders as $key=>$row)	{
   
@@ -158,7 +202,7 @@ $limit     =  $paging_obj->getLimit();
                 <?php
 				/////////////////
 				
-				
+				 
 				 echo $paging_obj->showPaging(20,"sale_orders","","paging","next");
 				
 				?>
